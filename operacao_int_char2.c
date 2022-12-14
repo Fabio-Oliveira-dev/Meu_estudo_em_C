@@ -3,8 +3,7 @@ void main(){
 char letra;
 int a;
 a = 10;
-letra = ‘L’;
+letra = "L";
 letra = letra + a%2;
-printf(“a = %d e letra = %c.∖n”, a, letra);
+printf("a = %d e letra = %c.\n", a, letra);
 }
-

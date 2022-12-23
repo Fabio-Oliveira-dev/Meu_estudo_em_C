@@ -3,10 +3,9 @@
 int main ()
 {
     float nota1, nota2, nota3, media;
-    int cont = 1;
+    int cont = 1; // Inicializador
 
-    // Inicializador - Condição - Incrementação
-    while (cont<=2)
+    while (cont<=2) // Condição
     {    
             printf("Digite a nota 1 do aluno. \n");
             scanf("%f", &nota1);
@@ -21,7 +20,7 @@ int main ()
                 printf("Aluno aprovado com media. %.2f \n", media);
             else
                 printf("Aluno reprovado com media. %.2f \n", media);
-            cont++;
+            cont++; // Incrementação
     }
     return 0;
 }

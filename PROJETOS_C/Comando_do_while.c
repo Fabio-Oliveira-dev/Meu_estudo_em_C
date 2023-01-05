@@ -1,11 +1,10 @@
 //Em portugol faça enquanto
-// C Do while
+// C do while
 
 #include<stdio.h>
 int main()
 {
     int num;
-
     do
     {
         printf("Digite um numero: ");
